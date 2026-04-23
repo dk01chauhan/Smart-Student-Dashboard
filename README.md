@@ -18,23 +18,19 @@ Database: MySQL / SQL
 Tools: VS Code, Git, GitHub
  Project Structure
 Smart-Student-Dashboard/
-│
-├── Frontend/
-│   ├── index.html
-│   ├── register.html
-│   ├── dashboard.html
-│   ├── style.css
-│   └── script.js
-│
-├── Backend/
-│   ├── Login.java
-│   ├── Register.java
-│   └── DatabaseConnection.java
-│
-├── Database/
-│   └── schema.sql
-│
-└── README.md
+ Frontend/
+index.html
+register.html
+dashboard.html
+style.css
+script.js
+Backend/
+Login.java
+Register.java
+DatabaseConnection.java
+Database/
+schema.sql
+README.md
 
 How to Run the Project
 1-Clone the repository
