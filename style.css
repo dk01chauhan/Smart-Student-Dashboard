@@ -1,0 +1,24 @@
+body {
+    font-family: Arial;
+    background: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d") no-repeat center/cover;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+input, select, button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+}
