@@ -34,7 +34,7 @@ README.md
 
 How to Run the Project
 1-Clone the repository
-https://github.com/dk01chauhan/Smart-Student-Dashboard/edit/main/README.md
+https://github.com/dk01chauhan/Smart-Student-Dashboard
 2-Open Frontend files in browser (index.html)
 3-Setup Backend
 Run Java files on server (Apache Tomcat recommended)
