@@ -41,3 +41,6 @@ Run Java files on server (Apache Tomcat recommended)
 4-Setup Database
 Import schema.sql into MySQL
 Update DB credentials in backend code
+<img width="1913" height="914" alt="Screenshot 2026-04-23 183749" src="https://github.com/user-attachments/assets/f3075b4a-f506-48ae-b9db-3286edc2cc69" />
+<img width="1910" height="911" alt="Screenshot 2026-04-23 183939" src="https://github.com/user-attachments/assets/98d03bdb-c49b-44de-ba59-b2dbb5ea1605" />
+<img width="1919" height="910" alt="Screenshot 2026-04-23 184021" src="https://github.com/user-attachments/assets/0b2ab32f-e780-445f-b3c6-8dbe7048d3e8" />
