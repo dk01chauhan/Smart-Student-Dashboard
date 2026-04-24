@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Student Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎓 Smart Student Dashboard</h1>
+
+<h2>Register</h2>
+
+<select id="role" onchange="toggleForm()">
+<option value="">Select Role</option>
+<option value="student">Student</option>
+<option value="faculty">Faculty</option>
+</select>
+
+<div id="commonFields" style="display:none;">
+
+<label>Name</label>
+<input id="name">
+
+<label>Mobile</label>
+<input id="mobile">
+
+<label>Email</label>
+<input id="email">
+
+<label>University</label>
+<input id="university">
+
+<label>University ID</label>
+<input id="university_id">
+
+<label>Password</label>
+<input id="password" type="password">
+
+</div>
+
+
+<div id="studentFields" style="display:none;">
+
+<label>Father Name</label>
+<input id="father_name">
+
+<label>Course</label>
+<input id="course">
+
+</div>
+
+<button onclick="register()">
+Register
+</button>
+
+<hr>
+
+<h2>Login</h2>
+
+<label>Login As</label>
+
+<select id="login_role">
+<option value="">Select Role</option>
+<option value="student">Student</option>
+<option value="faculty">Faculty</option>
+</select>
+
+<input id="login_id" placeholder="University ID">
+
+<input
+type="password"
+id="login_pass"
+placeholder="Password"
+>
+
+<button onclick="login()">
+Login
+</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

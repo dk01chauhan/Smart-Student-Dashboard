@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<script src="script.js"></script>
+
+<script>
+let user=checkAccess("student");
+</script>
+
+<div class="container">
+
+<h1>Student Dashboard</h1>
+
+<h3 id="nm"></h3>
+
+<p>
+Attendance:
+<span id="att"></span>
+</p>
+
+<p>
+Marks:
+<span id="mk"></span>
+</p>
+
+<p>
+Fees:
+<span id="fs"></span>
+</p>
+
+<p>
+Timetable:
+<span id="tt"></span>
+</p>
+
+<button onclick="logout()">
+Logout
+</button>
+
+</div>
+
+
+<script>
+
+nm.innerText=user.name;
+att.innerText=user.attendance;
+mk.innerText=user.marks;
+fs.innerText=user.fees;
+tt.innerText=user.timetable;
+
+</script>
+
+</body>
+</html>

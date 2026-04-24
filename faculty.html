@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Faculty Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<script src="script.js"></script>
+
+<script>
+let user=checkAccess("faculty");
+</script>
+
+<div class="container">
+
+<h1>Faculty Panel</h1>
+
+<input id="studentId" placeholder="Student ID">
+
+<input id="attendance"
+placeholder="Attendance %">
+
+<input id="marks"
+placeholder="Marks">
+
+<select id="fees">
+<option>Paid</option>
+<option>Pending</option>
+</select>
+
+<textarea
+id="timetable"
+placeholder="Timetable">
+</textarea>
+
+<button onclick="updateStudent()">
+Update
+</button>
+
+<button onclick="logout()">
+Logout
+</button>
+
+</div>
+
+<script>
+
+function updateStudent(){
+
+let sid=studentId.value;
+
+let student=
+JSON.parse(
+localStorage.getItem(sid)
+);
+
+if(!student){
+alert("Student not found");
+return;
+}
+
+student.attendance=
+attendance.value;
+
+student.marks=
+marks.value;
+
+student.fees=
+fees.value;
+
+student.timetable=
+timetable.value;
+
+
+localStorage.setItem(
+sid,
+JSON.stringify(student)
+);
+
+alert("Updated");
+
+}
+</script>
+
+</body>
+</html>
