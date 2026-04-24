@@ -44,3 +44,5 @@ Update DB credentials in backend code
 <img width="1913" height="914" alt="Screenshot 2026-04-23 183749" src="https://github.com/user-attachments/assets/f3075b4a-f506-48ae-b9db-3286edc2cc69" />
 <img width="1910" height="911" alt="Screenshot 2026-04-23 183939" src="https://github.com/user-attachments/assets/98d03bdb-c49b-44de-ba59-b2dbb5ea1605" />
 <img width="1919" height="910" alt="Screenshot 2026-04-23 184021" src="https://github.com/user-attachments/assets/0b2ab32f-e780-445f-b3c6-8dbe7048d3e8" />
+<img width="1635" height="882" alt="image" src="https://github.com/user-attachments/assets/ba4033e4-5fd4-45fa-b54a-f0b5dcbb42f7" />
+<img width="1639" height="909" alt="image" src="https://github.com/user-attachments/assets/02022d38-f598-40b2-804e-4d6f75bbe23e" />
